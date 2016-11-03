@@ -1,0 +1,27 @@
+{
+  "name": "btech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-install": "^0.6.0",
+    "gulp-zip": "^3.2.0",
+    "node-aws-lambda": "^0.1.8",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "async": "^2.1.2",
+    "aws-sdk": "^2.6.11",
+    "dynamodb-marshaler": "^2.0.0",
+    "fs": "0.0.1-security",
+    "gm": "^1.23.0"
+  }
+}
